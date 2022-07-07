@@ -1,11 +1,11 @@
-.big_div {
+.big-div {
   /* border: 2px red solid; */
   /* background-color: gold; */
   display: flex;
   flex-direction: column;
   align-items: center;
   width: 100%;
-  height: 600px;
+  /* height: 600px; */
 }
 
 form {
@@ -13,8 +13,10 @@ form {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
+  align-items: center;
   width: 30%;
-  height: 100%;
+  /* height: 100%; */
+  height: 600px;
 }
 
 .little_div {
@@ -63,6 +65,48 @@ form {
 h1 {
   font-size: 2rem;
   text-align: center;
-  margin-bottom: 20px;
-  margin-top: 20px;
+  margin-bottom: 40px;
+  margin-top: 40px;
+}
+
+.steptwo {
+  width: 70%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  height: 450px;
+  /* border: 2px red solid; */
+}
+
+.results {
+  width: 40%;
+  /* border: 2px blue solid; */
+  border: 2px black solid;
+  height: 30%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  background-color: #f2f2f2;
+  border-radius: 5px;
+  padding: 20px;
+  box-sizing: border-box;
+}
+
+.button2 {
+  width: 50%;
+  height: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  /* border: 2px yellow solid; */
+}
+
+.button2 button {
+  width: 100%;
+  border-radius: 5px;
+  height: 60px;
+  background-color: #5c47d3;
+  font-size: 1.3rem;
+  color: white;
 }
